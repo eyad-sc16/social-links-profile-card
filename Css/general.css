@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  height: 100dvh;
+  background-color: var(--backBround);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --backBround: #222222;
+  --cardBackground: #303030;
+  --linksBackground: #464646;
+  --accountName: #ffffff;
+  --buttonsText: #ffffff;
+  --reactColor: #c5f82a;
+  --bio: #b8b8b8;
+}
