@@ -13,9 +13,9 @@ main,
 }
 
 .card {
-  height: 33rem;
   background-color: var(--cardBackground);
-  min-width: 21.5rem;
+  width: 21.5rem;
+  max-width: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
