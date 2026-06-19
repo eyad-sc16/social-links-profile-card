@@ -14,14 +14,13 @@ main,
 
 .card {
   background-color: var(--cardBackground);
-  width: 21.5rem;
-  max-width: 380px;
+  width: 23rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 2rem;
-  border-radius: 0.5rem;
+  padding: 2.1rem;
+  border-radius: 0.6rem;
   gap: 0.5rem;
 }
 
@@ -33,17 +32,17 @@ main,
 
 .profile {
   flex-direction: column;
-  gap: 1.3rem;
+  gap: 1.8rem;
   margin-bottom: 0.5rem;
 }
 
 .profile-picture img {
-  width: 65px;
+  width: 80px;
   border-radius: 50%;
 }
 
 .profile-name p {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--accountName);
 }
@@ -55,7 +54,7 @@ main,
 .location p {
   font-weight: 500;
   color: var(--reactColor);
-  font-size: 10.5px;
+  font-size: 11.5px;
 }
 
 .bio {
@@ -65,7 +64,7 @@ main,
 }
 
 .bio p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--bio);
   font-weight: 500;
 }
@@ -83,7 +82,7 @@ main,
 .links div {
   background-color: var(--linksBackground);
   width: 100%;
-  height: 35px;
+  height: 2.5rem;
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -91,7 +90,7 @@ main,
 }
 .links p {
   color: var(--buttonsText);
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 500;
 }
 .links div:hover {
