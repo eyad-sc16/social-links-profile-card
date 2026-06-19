@@ -1,7 +1,8 @@
 @media (max-width: 480px) {
   .hero-section .card {
+    padding: 5%;
+    width: 80%;
   }
-
   .hero-section .links p {
     font-size: 11.5px;
     font-weight: 500;
